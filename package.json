@@ -10,7 +10,7 @@
     "audio",
     "sound"
   ],
-  "main": "core/sono.js",
+  "main": "dist/sono.min.js",
   "scripts": {
     "prepublish": "npm run lib",
     "test": "eslint 'src/**/*.js' && karma start --single-run --browsers Chrome && WA=no karma start --single-run --browsers Chrome",
